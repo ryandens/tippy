@@ -14,6 +14,7 @@
 		7F69FF9C1E1DE31300048E42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F69FF9A1E1DE31300048E42 /* LaunchScreen.storyboard */; };
 		7F69FFA71E1DE31300048E42 /* tippyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F69FFA61E1DE31300048E42 /* tippyTests.swift */; };
 		7F69FFB21E1DE31300048E42 /* tippyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F69FFB11E1DE31300048E42 /* tippyUITests.swift */; };
+		7FC3E71C1E1EDD0C0023FC2D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC3E71B1E1EDD0C0023FC2D /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		7F69FFAD1E1DE31300048E42 /* tippyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tippyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F69FFB11E1DE31300048E42 /* tippyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tippyUITests.swift; sourceTree = "<group>"; };
 		7F69FFB31E1DE31300048E42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FC3E71B1E1EDD0C0023FC2D /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				7F69FF981E1DE31300048E42 /* Assets.xcassets */,
 				7F69FF9A1E1DE31300048E42 /* LaunchScreen.storyboard */,
 				7F69FF9D1E1DE31300048E42 /* Info.plist */,
+				7FC3E71B1E1EDD0C0023FC2D /* SettingsViewController.swift */,
 			);
 			path = tippy;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					7F69FF8D1E1DE31100048E42 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = P6G358YRAZ;
 						ProvisioningStyle = Automatic;
 					};
 					7F69FFA11E1DE31300048E42 = {
@@ -261,6 +265,7 @@
 			files = (
 				7F69FF941E1DE31300048E42 /* ViewController.swift in Sources */,
 				7F69FF921E1DE31300048E42 /* AppDelegate.swift in Sources */,
+				7FC3E71C1E1EDD0C0023FC2D /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +415,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = P6G358YRAZ;
 				INFOPLIST_FILE = tippy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ryandens.tippy;
@@ -422,6 +429,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = P6G358YRAZ;
 				INFOPLIST_FILE = tippy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ryandens.tippy;
@@ -503,6 +512,7 @@
 				7F69FFB81E1DE31300048E42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F69FFB91E1DE31300048E42 /* Build configuration list for PBXNativeTarget "tippyTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +521,7 @@
 				7F69FFBB1E1DE31300048E42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F69FFBC1E1DE31300048E42 /* Build configuration list for PBXNativeTarget "tippyUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +530,7 @@
 				7F69FFBE1E1DE31300048E42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
